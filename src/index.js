@@ -2,12 +2,22 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Developer from './Developer';
+import Class from './Class';
+import Array from './Array';
+import Arrow from './Arrow';
+import Event from './Event';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Developer />
+    <Class />
+    <Array />
+    <Arrow />
+    <Event />
   </React.StrictMode>
 );
 
